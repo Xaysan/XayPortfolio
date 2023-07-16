@@ -1,0 +1,24 @@
+@import './base.css';
+@font-face {
+  font-family: 'Noto Sans Lao';
+  src: url('./fonts/Noto_Sans_Lao/static/NotoSansLao-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sf-pro-text';
+  src: url('./fonts/Roboto/sf-pro-text-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:lang(la) {
+  font-family: 'Noto Sans Lao', sans-serif;
+}
+
+body {
+  font-family: 'sf-pro-text', sans-serif;
+}

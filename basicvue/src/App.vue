@@ -1,0 +1,22 @@
+<template>
+  <div class="d-flex flex-row mb-3">
+  <div class="p-2">Flex item 1</div>
+  <div class="p-2">Flex item 2</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+<div class="d-flex flex-row-reverse">
+  <div class="p-2">Flex item 1</div>
+  <div lang="la" class="p-2">ສະບາຍດີ</div>
+  <div class="p-2">Flex item 3</div>
+</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
